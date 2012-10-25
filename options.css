@@ -1,0 +1,92 @@
+body {
+    font-family: "Andale Mono", AndaleMono, monospace;
+    font-size:80%;
+    margin:10px;
+    background-color: #6B6B6B;
+    color: #FFFFFF;
+}
+
+#header {
+    padding-bottom: 3.5em;
+    padding-top: 3.5em;
+    width: 840px;
+}
+
+#header h1 {
+    font-size: 156%;
+    display:inline;
+    padding-bottom: 50px;
+    padding-left: 144px;
+    padding-top: 75px;
+    background:url(go-to-Backend128x128.png) no-repeat;
+    background-size: 128px;
+    background-position:1px 18px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+.section-header {
+    background:#516E9E;
+    border-top:3px solid #EE9C2D;
+    font-size:150%;
+    padding:3px 0 2px 5px;
+    font-weight:bold;
+    margin-bottom:1em;
+    margin-top:4em;
+}
+
+.section-header.first {
+    margin-top:1em;
+}
+
+#custom-domain {
+    width:300px;
+    margin-left:2px;
+}
+
+#footer {
+    margin-top:2em;
+}
+
+#message-box{
+    margin-top:2em;
+    font-size:120%;
+}
+
+input[type="text"] {
+    width: 270px;
+    color: #FFFFFF;
+    background-color: #6B6B6B;
+}
+
+input.button{
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input.button-orange{
+    background: #D68916;
+    background-image: -webkit-gradient(linear,0% 0%,0% 100%,from(#E99A21),to(#C97D10));
+    background-image: -moz-linear-gradient(top,#E99A21,#C97D10);
+    background-image: -ms-linear-gradient(top,#E99A21,#C97D10);
+    background-image: -o-linear-gradient(top,#E99A21,#C97D10);
+    background-image: linear-gradient(top,#E99A21,#C97D10);
+    border: 2px solid #D68916;
+    font-weight: bold;
+}
+
+input.button-blue{
+    background: #516E9E;
+    background-image: -webkit-gradient(linear,0% 0%,0% 100%,from(#5D7DB1),to(#445C89));
+    background-image: -moz-linear-gradient(top,#5D7DB1,#445C89);
+    background-image: -ms-linear-gradient(top,#5D7DB1,#445C89);
+    background-image: -o-linear-gradient(top,#5D7DB1,#445C89);
+    background-image: linear-gradient(top,#5D7DB1,#445C89);
+    border: 2px solid #516E9E;
+    background-clip: padding-box;
+}
+
+form#ezpswitcher_settings {
+    width:840px;
+}

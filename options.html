@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>eZPublish Backend Switcher - Options</title>
+        <script src="jquery-1.7.2.min.js"></script>
+        <script src="options.js"></script>
+        <link rel="stylesheet" type="text/css" href="options.css">
+    </head>
+    <body>
+    
+        <div id="header">
+            <h1>Type in your eZ-Publish Frontend and Backend URLs here: </h1>
+        </div>
+    
+        <div class="section-header first">Domains</div>
+        <p>To use the eZPublish Backend Switcher with your projects domain, please enter your Backend and Frontend URLs here first.
+        You will need to type the full URL, like this:
+        <em>http://www.silversolutions.de/</em></p>
+        
+        <p>Best practice is to just copy it from the URL-bar.</p>
+        
+        <form id="ezpswitcher_settings">
+            <div id="input1" style="margin-bottom:4px;" class="url_lines">
+                Frontend URL: <input type="text" name="furl1" id="furl1" />
+                Backend URL: <input type="text" name="burl1" id="burl1" />
+            </div>
+            <div id="message-box"></div>
+            <div id="footer">
+
+                <input type="button" class="button button-blue" id="btnAdd" value="Add Site" />
+                <input type="button" class="button button-blue" id="btnDel" value="Remove last Site" />
+                <input type="button" class="button button-orange" id="btnSave" value="Save Changes" />
+            </div>
+        </form>
+
+    </body>
+</html>

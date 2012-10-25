@@ -1,0 +1,15 @@
+body {
+    /*font-family:helvetica, arial, sans-serif;*/
+    font-family: "Andale Mono", AndaleMono, monospace;
+    font-size:80%;
+    background-color: #545454;
+    margin:10px;
+    width: 270px;
+    color: #FFFFFF;
+}
+div {
+    color: #FFFFFF;
+}
+a {
+    color: #FFAE00;
+}
